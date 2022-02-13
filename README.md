@@ -1,3 +1,3 @@
 # AutomatedTests
-Open src/test/java;
+Click through src/test/java;
 See the Java source code;
