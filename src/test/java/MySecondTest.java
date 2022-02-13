@@ -17,7 +17,7 @@ public class MySecondTest {
     @Test
     public void test(){
         driver.get(BASE_URL); // nebo cely nazev do uvozovek
-        // localhost : registrace
+        //localhost : registrace
         //driver.findElement(By.id("clickMe")).click(); // najdu element lokatorem ID, teprve pote zadavam dalsi metodu
         driver.findElement(By.name("email")).sendKeys("halfelf@gmail.com"); // name se pouziva hlavne u formularu
         driver.findElement(By.name("name")).sendKeys("Petr");
@@ -25,7 +25,7 @@ public class MySecondTest {
 
 
         /*
-        // seznam : registrace na email
+        //seznam : registrace na email
         driver.findElement(By.name("username")).sendKeys("v.grulich@gmail.com");
         driver.findElement(By.name("password")).sendKeys("test");
         */
