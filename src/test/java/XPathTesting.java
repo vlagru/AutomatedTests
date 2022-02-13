@@ -17,9 +17,9 @@ public class XPathTesting {
     @Test
     public void test(){
         driver.get(BASE_URL);
-        // localhost Tabulka
+        //localhost Tabulka
         // /html/body/div/div/table/thead/tr/th[3] // 3 je indexace, zkopirovana XPath
-        // www.seznam.cz
+        //www.seznam.cz
         //driver.findElement(By.xpath("//*[@id=\"boxik-26\"]/div/div/div[3]/div[1]/div/h3/a")).click();
         driver.findElement(By.xpath("//*[@id=\"boxik-184\"]/div/div/div[3]/div/form/div[1]/label/input")).sendKeys("Lukas");
         driver.findElement(By.xpath("//*[@id=\"boxik-184\"]/div/div/div[3]/div/form/div[2]/div/label/input")).sendKeys("heslo");
