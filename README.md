@@ -1,3 +1,2 @@
 # AutomatedTests
-Click through src/test/java;
-See the Java source code;
+Few automated tests writen as a part of Web Automation Testing course
