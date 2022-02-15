@@ -1,2 +1,2 @@
 # AutomatedTests
-Few automated tests writen as a part of Web Automation Testing course
+Few automated tests written as a part of a web automation testing course
