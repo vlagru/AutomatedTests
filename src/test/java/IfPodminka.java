@@ -25,7 +25,16 @@ public class IfPodminka {
             driver.findElement(By.id("clickMe")).click();
             Assert.assertEquals(String.valueOf(i), driver.findElement(By.id("clicks")).getText());
                 if (i==1) {
+                    System.out.println("Overujeme 'klik'");
                     Assert.assertEquals("klik", driver.findElement(By.className("description")).getText());
+                }
+                else if (i>=2 && i<=4) {
+                    System.out.println("Overujeme 'kliky'");
+                    Assert.assertEquals("kliky" , driver.findElement(By.className("description")).getText());
+                }
+                else {
+                    System.out.println("Overujeme 'klikov'");
+                    Assert.assertEquals("klikov", driver.findElement(By.className("description")).getText());
                 }
         }
     }
